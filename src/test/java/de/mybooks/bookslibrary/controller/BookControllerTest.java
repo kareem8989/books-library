@@ -1,5 +1,6 @@
 package de.mybooks.bookslibrary.controller;
 
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -20,6 +21,7 @@ class BookControllerTest {
     private MockMvc mvc;
 
     @Test
+    @Order(1)
     void getBooks() throws Exception {
         // Given
         String expectedJSON = """

@@ -46,7 +46,7 @@ public class BookReop {
 
     public List<Book> updateBook(String id ,Book newBook){
         Book theBook = getBookByID(id);
-
+        newBook.setIsbn(id);
         int idx = books.indexOf(theBook);
 
         books.set(idx,newBook);

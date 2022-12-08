@@ -28,7 +28,6 @@ public class BookController {
 
     @PutMapping("/books/{id}")
     public List<Book> update(@PathVariable String id,@RequestBody Book newBook){
-        newBook.setIsbn(id);
         service.updateBook(id,newBook);
         return service.getAllBooks();
     }
