@@ -1,4 +1,4 @@
-package de.mybooks.bookslibrary.reop;
+package de.mybooks.bookslibrary.repo;
 
 import de.mybooks.bookslibrary.model.Art;
 import de.mybooks.bookslibrary.model.Book;

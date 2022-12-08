@@ -1,7 +1,7 @@
 package de.mybooks.bookslibrary.service;
 
 import de.mybooks.bookslibrary.model.Book;
-import de.mybooks.bookslibrary.reop.BookReop;
+import de.mybooks.bookslibrary.repo.BookReop;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
